@@ -1,0 +1,20 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(239, 213, 180);
+    border: 2px solid black;
+    transition-property: all;              /* sara item me laga  */
+    transition-duration: 3s;              /* kitna time me change hoga  */
+    transition-timing-function: step(5);  /* kitna step me change ho */
+    transition-delay : 0.1s;              /* kitna time hold ho   */
+
+    /* transition: all 2s ease-in-out 0.2s;   (shorting)*/
+}
+div:hover{                               /* itme me curser layege to effact ho  */
+    background-color: blue;
+    color: brown;
+    font-size: 20px;
+}
+div:active{                             /* hold */
+    background-color: pink;
+}

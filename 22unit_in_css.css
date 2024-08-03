@@ -1,0 +1,46 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
+#box2{
+    height: 50px;
+    width: 50%;
+    background-color: blue;
+}
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    font-size: 10px;
+}
+#box4{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    margin: 10%;
+    font-size: 2em;
+}
+#box5{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    font-size: 10px;
+}
+#box6{
+    height: 88px;
+    width: 50px;
+    background-color: rgb(62, 23, 23);
+    color: aliceblue;
+    font-size: 3em;
+    width: 5em;
+    height: 40vh;
+}
+#box7{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(233, 163, 163);
+    color: aqua;
+    font-size: 5rem;
+    
+}

@@ -1,0 +1,41 @@
+div{
+    height: 100px;
+    width: 100px;
+    color: brown;
+    text-align: center;
+    border: 2px solid blue;
+    background-color: aliceblue;
+    position: absolute;   /* box ko move kare ke set karna koi position me */
+    top: 100px;
+    left: 100px;
+
+    transform: rotate(180deg);    /* rotate karna */
+    rotate: z 180deg;          /* X-axis Y-axis Z-axis me rotate karna */
+
+    /*transform: scale(2);         size me 2 times bada  (scale= bada ya choota) */
+    /* transform: scale(2,1);   height*2,width*1 ho jaye 
+    transform: scaleX(0.5);      x-axis me change ho (height)
+    transform: scaley(2);        y-axis me change ho (width) */
+
+    transition: all 2s ease-in ;    /*  ab roate karega 180 deg or bada hoga scale(2) */
+    
+}
+div:hover{    
+    background-color: rgb(39, 185, 185);
+    /* transform: scale(2); */
+    transform: translatey(-1000px);  /* translate move karta h +x,-x,+y,-y */
+    transform: translate(-80px,-200px);  
+    transform: skew(60deg);    /* tirchha karta h */
+}
+p{
+    height: 200px;
+    width: 200px;
+    text-transform: capitalize;
+    background-color: blanchedalmond;
+    color: brown;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    border: 2px solid black;
+}
+

@@ -1,0 +1,29 @@
+#a{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    text-align: center;
+}
+#b{
+    padding: 0%;
+    margin: 0%;
+    
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    color: white;
+    margin-right: 150px;
+    text-decoration: none;    
+}

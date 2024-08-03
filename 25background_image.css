@@ -1,0 +1,28 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid aquamarine;
+    display: inline-block;
+    text-align: center;
+}
+body{
+    background-image: url("25butterfly.jpg.jpg");
+    background-size: cover;  
+}
+#a{
+    background-image: url("25butterfly.jpg.jpg");
+    background-size: cover;
+}
+#b{
+    background-image: url("25fox.jpg.jpg");
+    background-size: contain;
+}
+#c{
+    background-image: url("25lion.jpg.jpg");
+    background-size: auto;
+}
+#d{
+    background-image: url("25rabbit.jpg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,15 @@
+#c{
+    /* color: white; */
+    background-color: blue;
+}
+/* .heading{
+    color: red;
+} */
+h1,h2,h3{
+    color: blueviolet;
+}
+button{
+    background-color: green;
+    color: red;
+    
+}

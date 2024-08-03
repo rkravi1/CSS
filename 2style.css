@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+h2{
+    color: aquamarine;
+}
+p{
+    color: pink;
+}
+button{
+    color: rgb(244, 9, 9);
+    background-color: #00ff00;
+}
+body{
+    background-color: rgb(255, 0, 0);
+}

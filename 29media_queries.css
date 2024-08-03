@@ -1,0 +1,24 @@
+div{
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    
+}
+
+@media (min-width : 600px){     /*  jese screen 600px hoga wese b-c blue ho jayega */
+    #a {
+        background-color: blue;
+    }
+}
+@media (min-width : 600px){     /*  jese screen 600px hoga wese b-c blue ho jayega */
+    #a {
+        font-size: large;
+    }
+}
+
+@media (min-width :200px) and (max-width :400px){
+    #b {
+        background-color: red;
+    }
+}

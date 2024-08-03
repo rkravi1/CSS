@@ -1,0 +1,43 @@
+.navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: azure;
+
+}
+li{
+    list-style-type: none;
+    display: inline;
+    color: rgb(187, 133, 235);
+}
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;   /* horizenta */
+    align-items: center;       /* vertical */
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.out{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;   /* horizenta */
+    align-items: center;       /* lower priorty*/
+}
+.in{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    align-self: flex-start;    /* higher priorty*/
+}

@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* flex-wrap: wrap;  */
+    /* align-items: center; 
+    align-content: center;  */
+    align-items: flex-start;
+}
+#box1{
+    background-color: aqua;
+    flex-shrink: 4;
+}
+#box2{
+    background-color: pink;
+    height: 200px;
+    flex-grow: 100;
+}
+#box3{
+    background-color: darkcyan;
+    align-self: start;
+
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+}

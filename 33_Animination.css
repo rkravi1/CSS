@@ -1,0 +1,51 @@
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;  /*square se circle me ho kaye box */
+    background-color: antiquewhite;
+    border: 1px solid black;
+    position: absolute;
+    left: 100%;
+    top: 200px;
+    /* animation: coloranimate;     /*  animation name */
+    /*animation-duration: 2s;      /* animination kitna time second me chahiye*/
+    /*animation-timing-function: ease-in;  /* animination kis traf ka chahiye */
+    /*animation-delay: 1s;          /*animination kitna delay chahiye start hone se pahle */
+    /*animation-iteration-count: 50;   /* animination kitna time ko 5*/
+    /*animation-direction: normal; */
+
+    animation: coloranimate 5s ease-in 3s 50 normal;
+}
+
+@keyframes coloranimate {
+    /* from { background-color: antiquewhite;}
+    to{background-color: red;} */
+
+    /*from{ left:0px;
+      background-color: yellow;
+      color: blue;
+    }
+    to{right:500px;
+      background-color: red;
+      color: yellow;
+    }*/
+
+    0%{left: 0px;
+      background-color: blue;
+      font-size: 10px;
+    }
+    50%{
+        left:40px;
+        background-color: blueviolet;
+        font-size: 40px;
+    }
+    100%{
+        left:200px;
+        background-color: red;
+        font-size: 10px;
+    }
+}
+
+div:hover{
+
+}
